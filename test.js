@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var input = $("#form_what"); //select your input for which you want to attach the autocomplete
-  var url = 'http://127.0.0.1:8001/search/autocomplete'; //your autocomplate item list provider ajax POST url
+  var url = 'http://127.0.0.1:8001/search/autocomplete'; //your autocomplate provider POST url
   var auto = new Autocomplete(input, url);
   auto.getUrlParameter = function () {
     var params={};
