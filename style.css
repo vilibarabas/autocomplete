@@ -1,0 +1,25 @@
+.autocomplete-results-container {
+    position: absolute;
+    /*top: 38px;*/
+    background: #FFF;
+    z-index: 100;
+    color: #000;
+    border: solid 1px #AAA !important;
+    padding: 5px 0 5px 0 !important;
+    margin: 0 !important;
+    font-size: 14px;
+    cursor: default;
+}
+
+ul.autocomplete-results-container {
+list-style-type: none;
+outline: 1px solid green;
+background-color: #d9d9d9;
+}
+ul.autocomplete-results-container > li {
+padding-left: 5px;
+}
+ul.autocomplete-results-container > li.active {
+
+    background-color: #ff751a;
+}
